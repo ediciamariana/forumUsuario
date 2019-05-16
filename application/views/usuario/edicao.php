@@ -2,7 +2,7 @@
     <input type="hidden" name="Id" value="<?=$usuario['Id']?>">
     <table>
         <tr>
-            <td>Título</td>
+            <td>Login</td>
             <td><input type="text" name="usuario" value="<?=$usuario['usuario']?>"/></td>
         </tr>
         <tr>

@@ -18,6 +18,7 @@
         function atualizar($tb_login) {
             $this->db->where('Id', $tb_login['Id']);
             return $this->db->update('tb_login', $tb_login);
+            return $this->db->update('tb_login', $senha);
         }
 
         function deletar($Id) {
